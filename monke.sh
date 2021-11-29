@@ -1,7 +1,7 @@
 stty -icanon time 0 min 0
 i=0
 r_flag=0
-echo "Run with -r to remove all monke selfie q to stop running"
+printf "Run with -r to remove all monke selfie q to stop running"
 find -type f -name '*wget*' -delete
 until getopts r flag
 do
