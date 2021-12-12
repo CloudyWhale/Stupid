@@ -1,3 +1,4 @@
+#This is not gap this is gdscript, the programming language for godot engine.
 extends StaticBody2D
 
 
