@@ -1,7 +1,7 @@
 stty -icanon time 0 min 0
 i=0
 r_flag=0
-printf "Run with -r to remove all monke selfie q to stop running"
+echo "Run with -r to remove all monke selfie q to stop running"
 find -type f -name '*wget*' -delete
 until getopts r flag
 do
@@ -16,7 +16,7 @@ done
 
 if [ -r ]; then
 stty sane
-echo "Monke will miss you :("
+echo -e "Monke will miss you :("
 find -type f -name '*monke*' ! -name "*.sh*" -delete
 stty sane
 fi
