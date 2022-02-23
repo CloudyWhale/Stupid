@@ -18,5 +18,4 @@ if [ -r ]; then
 stty sane
 echo -e "Monke will miss you :("
 find -type f -name '*monke*' ! -name "*.sh*" -delete
-stty sane
 fi
